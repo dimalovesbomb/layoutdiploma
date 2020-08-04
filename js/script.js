@@ -60,6 +60,15 @@ const swiper = new Swiper('.swiper-container', {
       			clickable: true,
       		},
       	},
+        767: {
+      		slidesPerView: 1,
+      		slidesPerGroup: 1,
+      		loop: true,
+      		pagination: {
+      			el: '.swiper-pagination',
+      			clickable: true,
+      		}
+      	},
       	575: {
       		slidesPerView: 1,
       		slidesPerGroup: 1,
